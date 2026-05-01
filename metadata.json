@@ -1,0 +1,6 @@
+{
+  "name": "Smart Ride Booking App",
+  "description": "A comprehensive ride-booking platform with real-time tracking, driver matching, and multi-user dashboards (User, Driver, Admin).",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": []
+}
