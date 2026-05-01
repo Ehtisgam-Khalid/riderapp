@@ -1,7 +1,8 @@
 import React from "react";
-import { Download, Smartphone, CheckCircle, ShieldCheck, MapPin } from "lucide-react";
+import { Download, Smartphone, CheckCircle, ShieldCheck, MapPin, ChevronRight } from "lucide-react";
 import { motion } from "motion/react";
 import { Link } from "react-router-dom";
+import { cn } from "../lib/utils";
 
 const LandingPage = () => {
   return (
