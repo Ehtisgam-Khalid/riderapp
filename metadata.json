@@ -1,6 +1,6 @@
 {
-  "name": "Smart Ride Booking App",
-  "description": "A comprehensive ride-booking platform with real-time tracking, driver matching, and multi-user dashboards (User, Driver, Admin).",
+  "name": "Easy Rider",
+  "description": "Premium ride-sharing application with real-time tracking, seamless booking, and professional driver network.",
   "requestFramePermissions": ["geolocation"],
   "majorCapabilities": []
 }

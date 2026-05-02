@@ -1,16 +1,30 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary: #FF3333; /* Geometric Balance Red */
-  --color-secondary: #1A1A1A;
-  --color-accent: #F8F9FA;
+  --color-primary: #FFCC00; /* Easy Rider Yellow */
+  --color-secondary: #242E42; /* Dark Navy/Black */
+  --color-accent: #F7F8F9;
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --radius-xl: 1.5rem;
+  --radius-2xl: 2rem;
 }
 
 @layer base {
   body {
-    @apply bg-[#F8F9FA] text-[#1A1A1A] font-sans;
+    @apply bg-white text-[#242E42] font-sans;
   }
+}
+
+.auth-input {
+  @apply w-full h-14 px-4 bg-[#F7F8F9] border-none rounded-xl focus:ring-2 focus:ring-primary outline-none transition-all;
+}
+
+.btn-primary {
+  @apply w-full h-14 bg-primary text-secondary font-bold rounded-xl flex items-center justify-center transition-all active:scale-95 shadow-sm;
+}
+
+.btn-secondary {
+  @apply w-full h-14 border-2 border-primary text-secondary font-bold rounded-xl flex items-center justify-center transition-all active:scale-95;
 }
 
 .map-container {
